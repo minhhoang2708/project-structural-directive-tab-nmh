@@ -1,0 +1,50 @@
+<div class="row" tabContainer>
+  <div class="col-sm-4">
+    <div class="list-group">
+      <a [active]="true" selector="angular" href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+        <h5 class="mb-1">Angular</h5>
+      </a>
+      <a selector="java" href="#" class="list-group-item list-group-item-action flex-column align-items-start ">
+        <h5 class="mb-1">Java</h5>
+      </a>
+      <a selector="reactjs" href="#" class="list-group-item list-group-item-action flex-column align-items-start ">
+        <h5 class="mb-1">React Js</h5>
+      </a>
+
+    </div>
+  </div>
+  <div class="col-sm-8">
+
+    <div class="card text-left" *contain="'angular'">
+      <div class="card-header">
+        <b> Angular</b>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Angular Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptate assumenda dolorem mollitia esse
+          accusantium, atque placeat consectetur aut possimus.</p>
+      </div>
+    </div>
+
+    <div class="card text-left" *contain="'java'">
+      <div class="card-header">
+        <b> Java</b>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Java Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptate assumenda dolorem mollitia esse accusantium,
+          atque placeat consectetur aut possimus.</p>
+      </div>
+    </div>
+
+    <div class="card text-left" *contain="'reactjs'">
+      <div class="card-header">
+        <b> Reactjs</b>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Reactjs Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptate assumenda dolorem mollitia esse
+          accusantium, atque placeat consectetur aut possimus.</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
